@@ -16,6 +16,18 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 
 [See more details and implementations in multiple languages.](Insertion_Sort)
 
+### Selection Sort
+
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
+
+**Time complexity analysis:**
+
+|Worst Case|Average Case|Best Case|
+|---|---|---|
+|O(n<sup>2</sup>)|O(n<sup>2</sup>)|O(n<sup>2</sup>)|
+
+[See more details and implementations in multiple languages.](Selection_Sort)
+
 ## Contributing
 
 Pull requests and ideas, especially for further algorithms are welcome. 

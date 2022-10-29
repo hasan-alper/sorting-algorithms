@@ -28,6 +28,18 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 
 [See more details and implementations in multiple languages.](Selection_Sort)
 
+### Bubble Sort
+
+Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order. 
+
+**Time complexity analysis:**
+
+|Worst Case|Average Case|Best Case|
+|---|---|---|
+|O(n<sup>2</sup>)|O(n<sup>2</sup>)|O(n)|
+
+[See more details and implementations in multiple languages.](Bubble_Sort)
+
 ## Contributing
 
 Pull requests and ideas, especially for further algorithms are welcome. 

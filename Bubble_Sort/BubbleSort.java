@@ -1,26 +1,27 @@
 public class BubbleSort {
     
-    // A utility function to print an array
-    public static void printArray(int[] arr) {
-        for(int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-    
+    // Implementation of Bubble Sort
     public static void bubbleSort(int[] arr) {
         for(int i = 0; i < arr.length; i++) {
-            boolean flag = false;
+            boolean swapped = false;
             for(int j = 0; j < arr.length - i - 1; j++) {
                 if(arr[j] > arr[j+1]) {
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;  
-                    flag = true;
+                    swapped = true;
                 }
             }
-            if(!flag) {
+            if(!swapped) {
                 break;
             }
+        }
+    }
+    
+    // Utility function to print an array
+    public static void printArray(int[] arr) {
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
     

@@ -1,12 +1,6 @@
 public class InsertionSort {
     
-    // A utility function to print an array
-    public static void printArray(int[] arr) {
-        for(int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-    
+    // Implementation of Insertion Sort
     public static void insertionSort(int[] arr) {
         for(int i = 0; i < arr.length - 1; i++) {
             int j = i;
@@ -16,6 +10,13 @@ public class InsertionSort {
                 arr[j+1] = temp;  
                 j--;
             }
+        }
+    }
+
+    // Utility function to print an array
+    public static void printArray(int[] arr) {
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
     
